@@ -3,8 +3,8 @@ python:
   - "2.7"
 # command to install dependencies
 install:
-  - pip install -q -U pip setuptools tox
-# command to run tests
+  - pip install -q -U pip setuptools tox coverage
+
 script: tox
 after_success:
   - bash <(curl -s https://codecov.io/bash)
