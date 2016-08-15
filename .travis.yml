@@ -3,6 +3,7 @@ python:
   - "2.7"
 # command to install dependencies
 install:
-  - pip install -q -U pip setuptools tox
+  - pip install -q -U pip setuptools tox coveralls
 # command to run tests
 script: tox
+after_success: coveralls
