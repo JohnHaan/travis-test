@@ -1,0 +1,63 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/usr/bin/python', local('/Users/john/diversity/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/john/diversity/.tox/dist')]
+env: None
+
+running sdist
+running egg_info
+writing requirements to template_korean.egg-info/requires.txt
+writing template_korean.egg-info/PKG-INFO
+writing top-level names to template_korean.egg-info/top_level.txt
+writing dependency_links to template_korean.egg-info/dependency_links.txt
+reading manifest file 'template_korean.egg-info/SOURCES.txt'
+writing manifest file 'template_korean.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating template_korean-0.1.0
+creating template_korean-0.1.0/template_korean
+creating template_korean-0.1.0/template_korean.egg-info
+creating template_korean-0.1.0/template_korean/migrations
+creating template_korean-0.1.0/template_korean/templatetags
+making hard links in template_korean-0.1.0...
+hard linking setup.py -> template_korean-0.1.0
+hard linking template_korean/__init__.py -> template_korean-0.1.0/template_korean
+hard linking template_korean/admin.py -> template_korean-0.1.0/template_korean
+hard linking template_korean/apps.py -> template_korean-0.1.0/template_korean
+hard linking template_korean/models.py -> template_korean-0.1.0/template_korean
+hard linking template_korean/settings.py -> template_korean-0.1.0/template_korean
+hard linking template_korean/tests.py -> template_korean-0.1.0/template_korean
+hard linking template_korean/views.py -> template_korean-0.1.0/template_korean
+hard linking template_korean.egg-info/PKG-INFO -> template_korean-0.1.0/template_korean.egg-info
+hard linking template_korean.egg-info/SOURCES.txt -> template_korean-0.1.0/template_korean.egg-info
+hard linking template_korean.egg-info/dependency_links.txt -> template_korean-0.1.0/template_korean.egg-info
+hard linking template_korean.egg-info/requires.txt -> template_korean-0.1.0/template_korean.egg-info
+hard linking template_korean.egg-info/top_level.txt -> template_korean-0.1.0/template_korean.egg-info
+hard linking template_korean/migrations/__init__.py -> template_korean-0.1.0/template_korean/migrations
+hard linking template_korean/templatetags/__init__.py -> template_korean-0.1.0/template_korean/templatetags
+hard linking template_korean/templatetags/proofread.py -> template_korean-0.1.0/template_korean/templatetags
+Writing template_korean-0.1.0/setup.cfg
+creating '.tox/dist/template_korean-0.1.0.zip' and adding 'template_korean-0.1.0' to it
+adding 'template_korean-0.1.0/PKG-INFO'
+adding 'template_korean-0.1.0/setup.cfg'
+adding 'template_korean-0.1.0/setup.py'
+adding 'template_korean-0.1.0/template_korean/__init__.py'
+adding 'template_korean-0.1.0/template_korean/admin.py'
+adding 'template_korean-0.1.0/template_korean/apps.py'
+adding 'template_korean-0.1.0/template_korean/models.py'
+adding 'template_korean-0.1.0/template_korean/settings.py'
+adding 'template_korean-0.1.0/template_korean/tests.py'
+adding 'template_korean-0.1.0/template_korean/views.py'
+adding 'template_korean-0.1.0/template_korean/migrations/__init__.py'
+adding 'template_korean-0.1.0/template_korean/templatetags/__init__.py'
+adding 'template_korean-0.1.0/template_korean/templatetags/proofread.py'
+adding 'template_korean-0.1.0/template_korean.egg-info/dependency_links.txt'
+adding 'template_korean-0.1.0/template_korean.egg-info/PKG-INFO'
+adding 'template_korean-0.1.0/template_korean.egg-info/requires.txt'
+adding 'template_korean-0.1.0/template_korean.egg-info/SOURCES.txt'
+adding 'template_korean-0.1.0/template_korean.egg-info/top_level.txt'
+removing 'template_korean-0.1.0' (and everything under it)

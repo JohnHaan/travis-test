@@ -1,0 +1,16 @@
+actionid: py27-dj17
+msg: installpkg
+cmdargs: [local('/Users/john/diversity/.tox/py27-dj17/bin/pip'), 'install', '-U', '--no-deps', '/Users/john/diversity/.tox/dist/template_korean-0.1.0.zip']
+env: {'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'TERM_PROGRAM_VERSION': '361.1', 'LOGNAME': 'john', 'USER': 'john', 'PATH': '/Users/john/diversity/.tox/py27-dj17/bin:/Users/john/bin/Sencha/Cmd/4.0.5.87:/Users/john/bin/Sencha/Cmd/5.1.3.61:/Users/john/bin/Sencha/Cmd:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin', 'HOME': '/Users/john', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'ko_KR.UTF-8', 'TERM': 'xterm-256color', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.UB1yUpXfzS/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '1', 'SECURITYSESSIONID': '186a7', 'XPC_FLAGS': '0x0', 'PYTHONHASHSEED': '1392937021', 'TMPDIR': '/var/folders/1n/x3j1d8bx40vc814pjhc70h4h0000gn/T/', 'TERM_SESSION_ID': 'D5F19700-BC4F-41EA-AD8D-16D5A67DD999', 'XPC_SERVICE_NAME': '0', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.E0snOIDD1k/Listeners', 'VIRTUAL_ENV': '/Users/john/diversity/.tox/py27-dj17', 'SHELL': '/bin/bash', '_': '/usr/local/bin/detox', 'SENCHA_CMD_3_0_0': '/Users/john/bin/Sencha/Cmd/5.1.3.61', 'OLDPWD': '/Users/john/diversity/template_korean', '__CF_USER_TEXT_ENCODING': '0x1F5:0x3:0x33', 'PWD': '/Users/john/diversity'}
+
+Processing ./.tox/dist/template_korean-0.1.0.zip
+Building wheels for collected packages: template-korean
+  Running setup.py bdist_wheel for template-korean: started
+  Running setup.py bdist_wheel for template-korean: finished with status 'done'
+  Stored in directory: /Users/john/Library/Caches/pip/wheels/3b/4c/af/21f2bba5ac6a49d197b2c7132d630fe60925c969604103967b
+Successfully built template-korean
+Installing collected packages: template-korean
+  Found existing installation: template-korean 0.1.0
+    Uninstalling template-korean-0.1.0:
+      Successfully uninstalled template-korean-0.1.0
+Successfully installed template-korean-0.1.0
